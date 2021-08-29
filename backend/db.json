@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "nameprod": "Sabao",
+      "marca": "OMO",
+      "departamento": "Limpeza",
+      "qtd": "10",
+      "valor": "10",
+      "id": 1
+    },
+    {
+      "nameprod": "Pao",
+      "marca": "Carioca",
+      "departamento": "Padaria",
+      "qtd": "10",
+      "valor": "2",
+      "id": 2
+    },
+    {
+      "nameprod": "Alcool",
+      "marca": "Deep Cleaning",
+      "departamento": "Limpeza",
+      "qtd": "50",
+      "valor": "10",
+      "id": 3
+    }
+  ]
+}
