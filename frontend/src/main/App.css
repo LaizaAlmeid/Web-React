@@ -1,0 +1,39 @@
+:root {
+    --bg--dark: #1A2F3A;
+    --logo-height: 100px;
+    --header-height: 100px;
+    --aside-width: 255px;
+    --footer-height: 40px;
+    --shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1), 0 2px 49px 0 rgba(0, 0, 0, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+    margin: 0px;
+    display: -ms-grid;
+    grid-template-areas: "logo header" "content" "footer";
+    background-color: #314470;
+    color: #fff;
+    height: 100vh;
+    padding: 0px;
+}
+
+aside.logo {
+    grid-area: logo;
+}
+
+header.header {
+    grid-area: header;
+}
+
+main.content {
+    grid-area: content;
+}
+
+footer.footer {
+    grid-area: footer;
+}

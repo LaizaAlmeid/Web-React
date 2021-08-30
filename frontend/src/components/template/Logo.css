@@ -1,0 +1,16 @@
+    aside.logo {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    aside.logo img {
+        padding: 0px 15px;
+    }
+    
+    aside.logo a {
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
